@@ -181,5 +181,8 @@ $scope.data = {};
 
 });
 
-
+// Phone 
+   $scope.CallTel = function(tel) {
+            window.location.href = 'tel:'+ tel;
+        }
  
