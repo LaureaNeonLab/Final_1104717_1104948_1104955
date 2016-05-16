@@ -9,7 +9,8 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <access origin="tel:*" launch-external="yes"/> <!-- phone dial accsess -->
+  <access origin="tel:*" launch-external="yes"/> <!-- phone dial access -->
+  <access origin="mailto:*" launch-external="yes" /> <!--- email access --->
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
