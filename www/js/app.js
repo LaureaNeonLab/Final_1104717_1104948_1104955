@@ -42,27 +42,7 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
       }
     }
   })
-
-  .state('app.search', {
-    url: '/search',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/search.html'
-      }
-    }
-  })
-
-  .state('app.browse', {
-      url: '/browse',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/browse.html'
-        }
-      }
-    })
-    
-    
-    
+     
     //page avec la liste
     .state('app.playlists', {
       url: '/playlists',
@@ -81,6 +61,16 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
       'menuContent': {
         templateUrl: 'templates/playlist.html',
         controller: 'PlaylistCtrl'
+      }
+    }
+  })
+  
+  // Help page
+    .state('app.help', {
+    url: '/help',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/help.html'
       }
     }
   })
