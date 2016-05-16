@@ -9,8 +9,7 @@ angular.module('starter.controllers', [])
   // listen for the $ionicView.enter event:
   //$scope.$on('$ionicView.enter', function(e) {
   //});
-  
-  
+     
 $scope.data = {};
 
 
@@ -101,18 +100,6 @@ $scope.data = {};
 
 /*************************** */
 
-
-/*.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})*/
-
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: '1. We admitted that we were powerless over our addiction; that our lives had become unmanageable.', id: 1 },
@@ -181,8 +168,8 @@ $scope.data = {};
 
 });
 
-// Phone 
+ // Phone 
    $scope.CallTel = function(tel) {
             window.location.href = 'tel:'+ tel;
-        }
- 
+        };
+  
