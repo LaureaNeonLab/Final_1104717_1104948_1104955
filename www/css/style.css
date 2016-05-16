@@ -1,1 +1,6 @@
 /* Empty. Add your own CSS if you like */
+.splash_screen_bg {
+  background-image: url("img/ionic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
