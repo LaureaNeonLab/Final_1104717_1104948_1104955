@@ -167,13 +167,3 @@ $scope.data = {};
 
 
 });
-
- // Phone 
-  $scope.CallNumber = function () {
-    var number = '18002005555';
-    window.plugins.CallNumber.callNumber(function () {
-      //success logic goes here
-    }, function () {
-      //error logic goes here
-    }, number)
-  };
