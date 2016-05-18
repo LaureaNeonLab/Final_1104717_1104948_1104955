@@ -1,5 +1,6 @@
 <ion-view view-title="Edition">
   <ion-content>
+    <a href="#/list/" class="button button-full button-stable button-outline" style="height :50px; margin:10px;"> < Back </a>
     <div class="list">
       <label class="item item-input">
         <input type="text" placeholder="Title" ng-model="noteForm.title">
@@ -15,6 +16,7 @@
     </button>
  
     <div ng-show="noteForm.id" class="button-bar">
+      
       <a class="button button-positive" ng-click="saveNote()">
         <i class="icon ion-checkmark"></i>
       </a>
