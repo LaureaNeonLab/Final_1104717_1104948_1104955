@@ -88,6 +88,15 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
     }
   })
   
+  // Meetings Page
+    .state('app.meetings', {
+    url: '/meetings',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/meetings.html'
+      }
+    }
+  })
   
   .state('app.list', {
       url: '/list',
