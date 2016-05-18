@@ -47,7 +47,8 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
       url: '/myProgress',
       views: {
         'menuContent': {
-          templateUrl: 'templates/myProgress.html'
+          templateUrl: 'templates/myProgress.html',
+          controller: 'PlaylistsCtrl'
         }
       }
     })
@@ -71,7 +72,7 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
     views: {
       'menuContent': {
         templateUrl: 'templates/playlist.html',
-        controller: 'PlaylistCtrl'
+     //   controller: 'PlaylistCtrl'
       }
     }
   })
