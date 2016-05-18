@@ -52,7 +52,8 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
       }
     })
      
-    //page avec la liste
+ /**** EXCLUDE PLAYLIST PAGE FROM MENU **** 
+     //page avec la liste
     .state('app.playlists', {
       url: '/playlists',
       views: {
@@ -62,6 +63,7 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
         }
       }
     })
+  *****************************/
 
 //pour cliquer sur une playliste
   .state('app.single', {
