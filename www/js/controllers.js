@@ -100,7 +100,110 @@ $scope.data = {};
 
 /*************************** */
 
-.controller('PlaylistsCtrl', function($scope) {
+.controller('PlaylistsCtrl', function($scope ,$ionicPopup) {
+  
+      //popUp for myProgress 1
+      $scope.showAlert1 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 1/12!',
+        });      
+      }; 
+  
+  
+      //popUp for myProgress 2
+      $scope.showAlert2 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 2/12!',
+        });      
+      }; 
+  
+      //popUp for myProgress 3
+      $scope.showAlert3 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 3/12!',
+        });      
+      }; 
+  
+      //popUp for myProgress 4
+      $scope.showAlert4 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 4/12!',
+        });      
+      }; 
+  
+      //popUp for myProgress 5
+      $scope.showAlert5 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 5/12!',
+        });      
+      }; 
+  
+      //popUp for myProgress 6
+      $scope.showAlert6 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 6/12!',
+        });      
+      }; 
+  
+  
+      //popUp for myProgress 7
+      $scope.showAlert7 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 7/12!',
+        });      
+      }; 
+  
+  
+      //popUp for myProgress 8
+      $scope.showAlert8 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 8/12!',
+        });      
+      }; 
+  
+      //popUp for myProgress 9
+      $scope.showAlert9 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 9/12!',
+        });       
+      }; 
+ 
+      //popUp for myProgress 10
+      $scope.showAlert10 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 10/12!',
+        });       
+      }; 
+  
+      //popUp for myProgress 11
+      $scope.showAlert11 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 11/12!',
+        });     
+      };
+  
+      //popUp for myProgress 12
+      $scope.showAlert12 = function() {
+        var alertPopup = $ionicPopup.alert({
+          title: 'Congratulations!!!',
+          template: 'You did 12/12!',
+        });
+      };
+
+ 
+  
+/*
   $scope.playlists = [
     { title: '1. We admitted that we were powerless over our addiction; that our lives had become unmanageable.', id: 1 },
     { title: '2. We came to believe that a Power greater than ourselves could restore us to sanity.', id: 2 },
@@ -115,8 +218,9 @@ $scope.data = {};
     { title: '11. We sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.', id: 11 },
     { title: '12. Having had a spiritual awakening as the result of these steps, we tried to carry this message to addicts, and to practice these principles in all our affairs.', id: 12 }
   ];
+  
+  */
 })
-
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
