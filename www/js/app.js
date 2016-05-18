@@ -42,6 +42,15 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
       }
     }
   })
+  
+  .state('app.progress', {
+      url: '/myProgress',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/myProgress.html'
+        }
+      }
+    })
      
     //page avec la liste
     .state('app.playlists', {
@@ -64,6 +73,8 @@ angular.module('starter', ['ionic','starter.controllers', 'starter.services'])
       }
     }
   })
+  
+  
   
   // Help page
     .state('app.help', {
