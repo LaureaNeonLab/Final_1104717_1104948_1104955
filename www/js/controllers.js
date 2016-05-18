@@ -107,7 +107,13 @@ $scope.data = {};
     { title: '3. We made a decision to turn our will and our lives over to the care of God as we understood Him.', id: 3 },
     { title: '4. We made a searching and fearless moral inventory of ourselves.', id: 4 },
     { title: '5. We admitted to God, to ourselves, and to another human being the exact nature of our wrongs.', id: 5 },
-    { title: '6. We were entirely ready to have God remove all these defects of character', id: 6 }
+    { title: '6. We were entirely ready to have God remove all these defects of character.', id: 6 },
+    { title: '7. We humbly asked Him to remove our shortcomings.', id: 7 },
+    { title: '8. We made a list of all persons we had harmed, and became willing to make amends to them all.', id: 8 },
+    { title: '9. We made direct amends to such people wherever possible, except when to do so would injure them or others', id: 9 },
+    { title: '10. We continued to take personal inventory and when we were wrong promptly admitted it.', id: 10 },
+    { title: '11. We sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.', id: 11 },
+    { title: '12. Having had a spiritual awakening as the result of these steps, we tried to carry this message to addicts, and to practice these principles in all our affairs.', id: 12 }
   ];
 })
 
