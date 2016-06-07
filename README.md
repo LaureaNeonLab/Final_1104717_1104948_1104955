@@ -11,4 +11,4 @@ Team Shredded Red Banana Final App
   <br>
 <p>Gustavo Reguero Collado - 1104717</p>
 <p> Ana Larrayoz - 1104948</p>
-<p> Mavary Lea Dam - 1104955</p>
+<p> Lea Dam - 1104955</p>
